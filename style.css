@@ -1,0 +1,31 @@
+ #container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+  #header {
+	height: 70px;
+	border: 1px solid black;
+
+  }
+  
+  #sidebar {
+	
+	margin-top: 20px;
+	flex-grow: 4;
+	background-color: #f1f1f1;
+	padding: 20px;
+  }
+  
+  #maincontent {
+	flex: 6;
+	background-color: white;
+	padding: 20px;
+  }
+  
+  #footer {
+	border: 1px solid black;
+	height: 100px;
+	clear: left;
+  }
+  
